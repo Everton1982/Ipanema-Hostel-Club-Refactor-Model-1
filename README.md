@@ -3,7 +3,7 @@
 
 MODEL 1
 
-Refactory and updates
+Refactor and updates
 
 The site in this repository has been updated in parts of the previously written code.
 
@@ -14,7 +14,7 @@ Removed the previous carousel and inserted a new similar plugin.
 Bootstrap classes have been added in part of the code.
 Parts of PHP code have been changed as well as maintained functions made in javascript while maintaining the dynamism of the page.
 Template in your alerted view keeping the minimum of the original look.
-Template demo page link 2:
+Template demo page link 1:
 
 http://devfrontend.com.br/modelo1.html
-Refactory and updates
+Refactor and updates
