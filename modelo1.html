@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Ipanema Hostel Club</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="shortcut icon" href="./assets/logo_mbX_icon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/logo_mbX_icon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style_hostelclub.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.jqueryscript.net/demo/Easy-Cross-browser-jQuery-Slideshow-Plugin-VMCSlider/src/css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <base target="ifrm_principal" />
+
+</head>
+
+<body id="background-body">
+
+
+
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item" aria-label="Home">
+                    <a class="nav-link" href="./php/home_personalizado.php">Home</a>
+                </li>
+                <li class="nav-item" aria-label="Hostel">
+                    <a class="nav-link" href="./php/hostel.php">O Hostel</a>
+                </li>
+                <li class="nav-item" aria-label="Serviços">
+                    <a class="nav-link" href="./php/servicos.php">Serviços</a>
+                </li>
+                <li class="nav-item" aria-label="Preços">
+                    <a class="nav-link" href="./php/precos.php">Preços</a>
+                </li>
+                <li class="nav-item" aria-label="Faça sua reserva">
+                    <a class="nav-link" href="./php/reserva.php">Faça sua Reserva</a>
+                </li>
+                <li class="nav-item" aria-label="Galeria de fotos">
+                    <a class="nav-link" href="./php/galeria_fotos.php">Galeria de Fotos</a>
+                </li>
+                <li class="nav-item" aria-label="Fale conosco">
+                    <a class="nav-link" href="./php/fale_conosco.php">Fale Conosco</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="animated fadeInDown" id="logo" style="margin-top: 3.8rem;">
+                <img class="img-fluid" src="./assets/logo.jpg" alt="logotipo">
+                <div class="row" id="language">
+                    <a href="http://www.ipanemahostelclub.com.br/en/index.php" id="en">Espanha</a>
+                    <a href="http://www.ipanemahostelclub.com.br/index.php" id="br">Australia</a>
+                    <a href="http://www.ipanemahostelclub.com.br/es/index.php" id="es">Brasil</a>
+                </div>
+            </div>
+
+
+            <div class="col-md-7" id="caroussel" style="padding-left: 0; padding-right: 15px; margin-top: 0;">
+
+                <div class="content" style="max-width:650px; height:337px auto; overflow:hidden; margin: 4rem auto;">
+                    <div id="slider" style="height:340px">
+                        <ul>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/326.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/333.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/334.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/355.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/580.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/581.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/582.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/584.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/585.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/587.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/588.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img class="img-fluid" src="./assets/590.jpg" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+                <script type="text/javascript" src="./slideshow/src/vmc.slide.js"></script>
+                <script type="text/javascript" src="./slideshow/src/vmc.slide.effects.js"></script>
+                <script>
+                    $('#slider').vmcSlide({
+                        duration: 5000,
+                        speed: 800,
+                        effects: ['fade', 'slideX', 'slideY', 'page', 'page2', 'rollingX', 'rollingY', 'blindsX', 'blindsY'],
+                        showText: true,
+                        random: false
+                        // ,sideButton:false
+                        // ,navButton:false
+                        ,
+                        flip: function (from, to) {
+                            console.log('from:' + from + ' to:' + to);
+
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col col-sm-12 col-md-12" style="margin-top: 0; margin-left: -2px; margin-bottom: -1.5rem; border-top: none; margin-bottom: 0;">
+            <table class="table table-sm table-responsive" style="margin-top: 3rem; text-align: center;width: 50%;
+              vertical-align:middle; padding-left: 5rem;
+              display:table-cell; margin-left: auto; margin-right: auto;">
+                <tbody style="background-color: #262827; height: 20rem;">
+                    <tr>
+                        <td width="462px" height="218" align="center" valign="top" class="destaques_topo" style="border-top: none;">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td width="180" height="64" valign="bottom" class="display-4 destaque_r1" style="color: #fff; font-size: 1.5em !important; font-weight: 500; padding-top: 4rem; border:none;">Faça sua reserva</td>
+                                        <td width="109" rowspan="3" style="border: none;">
+                                            <i class="far fa-calendar-alt fa-5x" style="color:white; margin-top: 2rem; padding-left: 1rem;"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="65" class="display-4 destaque_r2" style="color: grey; font-size: 1.3em; padding-top: 0.9rem; padding-bottom: 0.9rem;
+                                    font-size: 1.1em;
+                                    padding-top: 0.9rem;
+                                    padding-bottom: 2.2rem !important;
+                                    border-color: gray;
+                                    width: 100px;">
+                                            Reserve sua vinda
+                                            <br> ao Ipanema Hostel Club.</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="30" valign="middle" class="destaque_r3" style="width: 400px;
+                                    text-align: center;
+                                    border-top: none;
+                                    width: 70px;">
+                                            <a href="./php/reserva.php" style="color: #fff; font-size: 1em; font-weight: 600;">Ver mais
+                                                <i class="fas fa-check fa-3x" style="color: white; "></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <!-- <td width="15" class="destaques_topo"><img src="../images_new/bg_destaques_topo.jpg" width="14" height="216"></td> -->
+                        <td width="447" align="center" valign="top" class="destaques_topo" style="border-top: none;">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td width="180" height="64" valign="bottom" class="display-4 destaque_r1" style="color: #fff; font-size: 1.5em !important; font-weight: 500; padding-top: 4rem; border-top: none;">Onde estamos</td>
+                                        <td width="109" rowspan="3" style="border: none;">
+                                            <i class="fas fa-map-marker-alt fa-5x" style="color: white; margin-top: 2rem; margin-left: 1rem;"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="65" class="display-4 destaque_r2" style=" color: grey;
+                                    font-size: 1.1em;
+                                    padding-top: 0.9rem;
+                                    padding-bottom: 0.9rem;
+                                    border-color: gray;
+                                    width: 100px;">Todas as informações para chegar ao hostel com maior facilidade.</td>
+                                    </tr>
+                                    <tr>
+                                        <td height="30" valign="middle" class="destaque_r3" style="width: 400px;
+                                    text-align: center;
+                                    border-top: none;                                    
+                                    width: 70px;">
+                                            <a class="display-4" href="./php/onde_estamos.php" style="color: #fff; font-size: 1em; font-weight: 600;">Ver mais
+                                                <i class="fas fa-check fa-3x" style="color: white;"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <td colspan="2" align="center">
+        <br>
+        <div class="display-4" style="color:rgb(31, 29, 29); font-size:20px; text-align: center; background-color: rgb(246, 189, 76); font-size: 1.2em; padding-top: 2rem; font-weight: 500;">
+            <b>Com Tempo Limitado</b>
+            <br> Free Caipirinha Uma Noite do Final de Semana(1*Dose)
+            <a name="ifrm_principal_anchor" id="ifrm_principal_anchor"></a>
+            <br />
+            <iframe id="ifrm_principal" name="ifrm_principal" frameborder="0" scrolling="No" src="./php/home_personalizado.php" height="95%"
+                width="80%" onload="resize_iframe()" allowtransparency="true"></iframe>
+            <br>
+            <img class="mx-auto d-block" src="./assets/wservices.jpg" width="178" height="58" style="margin-top:10px;">
+            <br>
+            <br>
+        </div>
+    </td>
+    <!-- RESIZE_IFRAME -->
+    <a href="#ifrm_principal_anchor" target="_self" name="goto_ifrm_principal_anchor" id="goto_ifrm_principal_anchor"></a>
+    <script type="text/javascript" src="./js/smooth.pack.js"></script>
+    <script type="text/javascript">custom_home_page = "./php/home.php"; Scroller.speed = 5;</script>
+    <script type="text/javascript" src="./js/resize_iframe.js"></script>
+    <!-- FIM RESIZE_IFRAME -->
+
+    <!-- AWSTATS COM MAIS INFORMAÇÕES DO BROWSER -->
+    <script type="text/javascript" src="./js/awstats_misc_tracker.js"></script>
+    <noscript>
+        <img src="mkte_x/_scripts/awstats_misc_tracker.js?nojs=y" height="0" width="0" border="0" style="display: none" />
+    </noscript>
+    </p>
+    </map>
+
+    <map name="Map2" id="Map2">
+        <area shape="rect" coords="163,14,216,44" href="http://www.ipanemahostelclub.com.br/es/index.php#ifrm_principal_anchor" target="_self"
+        />
+        <area shape="rect" coords="102,15,153,55" href="index.php" target="_self" />
+        <area shape="rect" coords="31,10,88,55" href="../en/index.php" target="_self" />
+    </map>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
